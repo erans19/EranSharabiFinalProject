@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+        <!-- Timeout -->
+    <Timeout>10</Timeout>
+
+    <!-- General -->
+<!--    <PlatformName>desktop</PlatformName>-->
+
+    <!-- Authorization -->
+    <Username>loginunit194@gmail.com</Username>
+    <Password>loginpass</Password>
+
+    <UsernameAPI>admin</UsernameAPI>
+    <PasswordAPI>admin</PasswordAPI>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>http://automationpractice.com/index.php?controller=my-account</url>
+    <ImageRepo>C:\Automation\Final_Project_Eran_Sharabi\ImageRepository\</ImageRepo>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/clothes.csv</DDTFile>
+
+    <!-- API -->
+    <urlAPI>http://localhost:3000</urlAPI>
+
+    <!-- Mobile -->
+    <ReportDir>reports</ReportDir>
+    <ReportFormat>xml</ReportFormat>
+    <testName>Untitled</testName>
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <UDID>LMG910EMW12de6326</UDID>
+
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/USER/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <DesktopDriverPath>C:/Program Files/Windows Application Driver/WinAppDriver.exe</DesktopDriverPath>
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <DesktopServer>http://127.0.0.1:4723</DesktopServer>
+
+    <!-- Database -->
+    <DBURL>jdbc:mysql://sql10.freesqldatabase.com:3306/sql10511430</DBURL>
+    <DBUserName>sql10511430</DBUserName>
+    <DBPassword>LHceHfTgRq</DBPassword>
+
+
+</Environment>
